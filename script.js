@@ -1,7 +1,3 @@
-/*JavaScript code intercepts the click event, and initiates an Ajax request to look up the actor ID and full name for the entered terms.*/
-
-
-/*Renders the JSON result as an HTML select menu, captures the user-choice from the select menu, and invokes search.php, now including the actor ID and full name.*/
 
 function searchActor() {
     var actor_id = $(this).val();
